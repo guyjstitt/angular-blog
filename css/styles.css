@@ -1,0 +1,43 @@
+h3 {
+	color: black;
+	text-shadow: red 1px 0px;
+}
+h5 {
+	color: red;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: red;
+}
+
+.thumbnail {
+	height: 360px;
+}
+
+.thumbnail img {
+	width: auto;
+	max-width: 150px;
+	height: 160px;
+	box-shadow: 5px 2px 3px;
+}
+
+.container {
+	margin-top: 40px;
+}
+
+.orderBy {
+	display: block;
+}
+
+.orderBy *{
+	display: inline-block;
+}
+
+.nav-pills {
+	display: inline-block;
+	margin-top: 40px;
+}
