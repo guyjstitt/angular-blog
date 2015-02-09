@@ -1,7 +1,20 @@
 (function() {
-	var app = angular.module('blog', []);
+	var app = angular.module('blog', [ 'ngRoute']);
 	
+	app.config(function($routeProvider){
+	  $routeProvider.when('/', {
+	    controller: 'ListController',
+	    templateUrl: 'templates/list.html'
+	  })
+	  .when('/blog', {
+	    controller: 'BlogController',
+	    templateUrl: 'templates/blog.html'
+	  })
+	})
 
+	app.controller('BlogController', ['$scope', function($scope) {
+		var $scope = this;
+	}]);
 	app.controller('ListController',[ '$scope','$http', function($scope,$http) {
 		var $scope = this;
 

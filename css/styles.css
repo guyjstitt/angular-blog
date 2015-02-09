@@ -36,3 +36,8 @@ a:hover {
 .orderBy *{
 	display: inline-block;
 }
+
+.nav-pills {
+	display: inline-block;
+	margin-top: 40px;
+}
