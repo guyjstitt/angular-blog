@@ -10,11 +10,20 @@
 	    controller: 'BlogController',
 	    templateUrl: 'templates/blog.html'
 	  })
+	  .when('/node', {
+	    controller: 'NodeController',
+	    templateUrl: 'templates/node.html'
+	  })
 	})
 
 	app.controller('BlogController', ['$scope', function($scope) {
 		var $scope = this;
 	}]);
+
+	app.controller('NodeController', ['$scope', function($scope) {
+		var $scope = this;
+	}]);
+
 	app.controller('ListController',[ '$scope','$http', function($scope,$http) {
 		var $scope = this;
 

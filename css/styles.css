@@ -41,3 +41,12 @@ a:hover {
 	display: inline-block;
 	margin-top: 40px;
 }
+
+/*   Node CSS  */
+#node {
+}
+
+#node p {
+	text-indent: 50px;
+	font-size: 1.5em;
+}
