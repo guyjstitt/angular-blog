@@ -1,3 +1,6 @@
+body {
+	background-color: #303030;
+}
 h3 {
 	color: black;
 	text-shadow: red 1px 0px;
@@ -44,9 +47,25 @@ a:hover {
 
 /*   Node CSS  */
 #node {
+	background-color: #303030;
+}
+
+#node h1 {
+	color: #80bd01;
+	text-shadow: black -2px 2px;
 }
 
 #node p {
 	text-indent: 50px;
 	font-size: 1.5em;
+	color: white;
+	z-index: 3;
+	text-shadow: black -2px 2px;
 }
+
+.node-background img {
+	position: absolute;
+	opacity: 0.3;
+	z-index: 0;
+}
+
