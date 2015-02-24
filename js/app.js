@@ -2,7 +2,7 @@
 	var app = angular.module('blog', [ 'ngRoute']);
 	
 	app.config(function($routeProvider){
-	  $routeProvider.when('/', {
+	  $routeProvider.when('/home', {
 	    controller: 'ListController',
 	    templateUrl: 'templates/list.html'
 	  })
@@ -15,6 +15,23 @@
 	    templateUrl: 'templates/node.html'
 	  })
 	})
+
+	app.controller('MenuController',['$scope', function($scope) {
+		var $scope = this; 
+		var tabs = $('a');
+
+		tabs.on('click', function() {
+			tabs.parent().removeClass('active');
+			$(this).parent().addClass('active');
+		});
+
+		var index = window.location.hash.substring(2);
+
+		$("a[path="+index+"]").parent().addClass('active');
+
+		console.log($("a[path="+index+"]"));
+
+	}]);
 
 	app.controller('BlogController', ['$scope', function($scope) {
 		var $scope = this;

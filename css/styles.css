@@ -13,6 +13,18 @@ a {
 	color: black;
 }
 
+.nav-pills>li.active>a {
+	background-color: #80bd01 !important;
+}
+
+.nav a {
+	color: white !important;
+}
+
+.view {
+	margin-bottom: 40px;
+}
+
 a:hover {
 	color: red;
 }
