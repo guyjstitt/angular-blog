@@ -1,0 +1,18 @@
+<div ng-controller="ProjectsController as list">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-sm-6 col-md-4" ng-repeat="tutorial in list.items | orderBy:predicate">
+				<div class="thumbnail">
+					<a class="thumbOverlay" ng-href="{{tutorial.url}}"></a>
+					<img ng-src="{{tutorial.image}}">
+					<div class="caption">
+						<h3>{{tutorial.title}}</h3>
+						<h5>{{tutorial.author}}</h5>
+						<p>{{tutorial.description}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

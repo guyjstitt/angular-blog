@@ -1,0 +1,26 @@
+[
+	{
+		"url": "https://github.com/guyjstitt/Blog",
+		"title": "Writing in the Field",
+		"image": "http://jordanrosenfeld.net/wp-content/uploads/2013/03/23-Typewriter-in-a-field.jpg",
+		"description": "The Writing in the Field paper is an in-depth analysis of writing in the Information Technology field"
+	},
+	{
+		"url": "https://github.com/guyjstitt/Blog",
+		"title": "Press Release",
+		"image": "https://grammarchicblog.files.wordpress.com/2015/04/pressrelease-image.jpg",
+		"description": "This press release is a mock example of a press release of a new product for a company"
+	},
+	{
+		"url": "https://github.com/guyjstitt/Blog",
+		"title": "Group Sequence Project",
+		"image": "http://uoflcardgame.com/wp-content/uploads/2010/10/Yum-Center-Court.png",
+		"description": "The Group Sequence Project consists of a charter, proposal, presentation, and digital project."
+	},
+	{
+		"url": "https://github.com/guyjstitt/Blog",
+		"title": "Revised Resumes",
+		"image": "https://robjepson.files.wordpress.com/2013/04/resume-icon.jpg",
+		"description": "I revised my resume to be specific towards different careers."
+	}
+]

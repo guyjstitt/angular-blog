@@ -2,15 +2,14 @@ body {
 	background-color: #303030;
 }
 h3 {
-	color: black;
 	text-shadow: red 1px 0px;
 }
 h5 {
-	color: red;
+	color: white;
 }
 
 a {
-	color: black;
+	color: white;
 }
 
 .nav-pills>li.active>a {
@@ -76,8 +75,36 @@ a:hover {
 }
 
 .node-background img {
-	position: absolute;
 	opacity: 0.3;
 	z-index: 0;
 }
 
+.node-background {
+	display: table;
+	position: absolute;
+}
+
+.imageOverlay {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.5;
+}
+
+.thumbOverlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#reflection p {
+	text-indent: 50px;
+	font-size: 1.5em;
+	color: white;
+	z-index: 3;
+	text-shadow: black -2px 2px;
+}
+
+#reflection h3, #reflection h1 {
+	color: white;
+}
